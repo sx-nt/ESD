@@ -93,4 +93,18 @@ public class Fila <T> {
         fim = len;
         inicio = 0;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder s = new StringBuilder("[");
+        for (int i = 0; i < len; i++) {
+            int pos = (inicio + i) % area.length;
+            s.append(area[pos]);
+            if (i < len - 1) {
+                s.append(", ");
+            }
+        }
+        s.append("]");
+        return s.toString();
+    }
 }

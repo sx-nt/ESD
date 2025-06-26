@@ -1,7 +1,8 @@
 //Escreva um programa que lê um número inteiro n digitado pelo usuário,
 // e então usa uma fila para gerar todos os números binários correspondentes aos
 // números decimais de 1 até n. Os números NÃO devem ser gerados a partir da
-// conversão de decimal para binário ! Uma solução é a fila armazenar esses números na forma de String.
+// conversão de decimal para binário !
+// Uma solução é a fila armazenar esses números na forma de String.
 //
 //Os números gerados devem ser apresentados na tela, como mostrado neste exemplo de execução do programa:
 //
@@ -14,4 +15,8 @@
 //        110
 //        111
 //        1000
+
+
+//fazer uma fila para zero e uma fila para um
+//usa resultado da divisao como novo numero
 
